@@ -1,0 +1,37 @@
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: git@github.com:crazyeruca/crazyeruca.github.io.git
+  branch: master
+
+theme: aath
+
+# highlight
+## line_number
+highlight:
+  line_number: false
+
+# Comment
+## disqus
+## livere
+disqus_shortname: 米波
+livere_uid: meepo
+
+post_asset_folder: true
+
+# favicon
+favicon: /images/avatar.png
+
+# Aside
+## search
+## avatar
+## aside-description
+## links
+search: true
+avatar: /images/avatar.png
+aside-description: 对我而言，生活就是你所知和所能发现的一切。当你住在荒墟时，想要找到食物并不是一件容易的事。因此，你想要走捷径，你学会了忽悠。。。
+links:
+  百度: https://www.baidu.com/
+  谷歌: https://www.google.com/
+  知乎: https://www.zhihu.com/
